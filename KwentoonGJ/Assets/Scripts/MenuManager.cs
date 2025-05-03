@@ -5,10 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    public GameObject settingsPanel;
+    public GameObject menuPanel;
+    public GameObject levelSelectPanel;
     public GameObject difficultyPanel;
 
     public Level[] levels;
     public int[] lsevels;
+
+    public static bool introWatched;
+    public enum MenuPanels
+    {
+        MAINMENU,
+        LEVELSELECT,
+        SETTINGS
+    }
+
+    public static MenuPanels currentMenuScene = MenuPanels.MAINMENU;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +32,52 @@ public class MenuManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void LevelSelectMenu()
+    {
+        levelSelectPanel.SetActive(true);
+        //if (!introWatched)
+        //{
+        //    SceneManager.LoadScene("IntroCutscene");
+        //}
+        //else
+        //{
+        //    levelSelectPanel.SetActive(true);
+        //}
+    }
+
+    public void ShowMainMenu()
+    {
+        menuPanel.SetActive(true);
+        settingsPanel.SetActive(false);
+        levelSelectPanel.SetActive(false);
+    }
+
+    public void ShowSettings()
+    {
+        settingsPanel.SetActive(true);
+        levelSelectPanel.SetActive(false);
+        menuPanel.SetActive(false);
+    }
+
+
+    public void Quitgame()
+    {
+        Application.Quit();
+    }
+
+    public void SettingsBack()
+    {
+        if (SceneManager.loadedSceneCount > 1)
+        {
+            SceneManager.UnloadSceneAsync("MainMenu");
+        }
+        else
+        {
+            ShowMainMenu();
+        }
+
     }
 
     public void SelectLevel(int i)

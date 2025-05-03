@@ -25,7 +25,7 @@ public class LearningSystem : MonoBehaviour
     public TextMeshProUGUI wordText, correctText, meaningText;
     public TMP_InputField inputField;
 
-    public TextMeshProUGUI noteCountText;
+    public TextMeshProUGUI noteCountText, notesLearnedText;
 
     public GameObject notesParent;
     public GameObject stickyNotePrefab;
@@ -37,6 +37,7 @@ public class LearningSystem : MonoBehaviour
          
         currentWord = LevelManager.instance.wordList[0];
         StartNewLesson();
+        UpdateLearnedNotesText();
     }
 
     private void Awake()
@@ -60,6 +61,11 @@ public class LearningSystem : MonoBehaviour
                 //GAmeover
             }        
         }
+    }
+
+    public void UpdateLearnedNotesText()
+    {
+        notesLearnedText.text = $"{currentIndex} / {LevelManager.level.wordTotal}";
     }
 
     public void ShowLearningPanel()
@@ -131,7 +137,7 @@ public class LearningSystem : MonoBehaviour
         if (currentIndex == LevelManager.level.wordTotal - 1)
         {
             quizManager.quizPanel.SetActive(true);
-
+            notesLearnedText.text = $"{LevelManager.level.wordTotal} / {LevelManager.level.wordTotal}";
             quizManager.AssignChoices();
             //start quiz
         }
@@ -147,6 +153,7 @@ public class LearningSystem : MonoBehaviour
             NextWord();
             StartNewLesson();
             ResetLearningPanel();
+            UpdateLearnedNotesText();
         }
 
     }

@@ -25,7 +25,7 @@ public class PauseManager : MonoBehaviour
     public void Menu()
     {
         Time.timeScale = 1f;
-        //UIManager.currentMenuScene = UIManager.MenuPanels.MAINMENU;
+        MenuManager.currentMenuScene = MenuManager.MenuPanels.MAINMENU;
         SceneManager.LoadScene("MainMenu");
     }
 
@@ -44,7 +44,7 @@ public class PauseManager : MonoBehaviour
     }
     public void Settings()
     {
-        //UIManager.currentMenuScene = UIManager.MenuPanels.SETTINGS;
+        MenuManager.currentMenuScene = MenuManager.MenuPanels.SETTINGS;
         SceneManager.LoadSceneAsync("MainMenu", LoadSceneMode.Additive);
     }
 
@@ -56,7 +56,7 @@ public class PauseManager : MonoBehaviour
     public void Continue()
     {
         SceneManager.LoadScene("MainMenu");
-        //UIManager.currentMenuScene = UIManager.MenuPanels.LEVELSELECT;
+        MenuManager.currentMenuScene = MenuManager.MenuPanels.LEVELSELECT;
         Time.timeScale = 1f;
     }
 
