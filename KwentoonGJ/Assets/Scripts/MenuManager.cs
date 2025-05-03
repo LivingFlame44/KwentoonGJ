@@ -12,7 +12,7 @@ public class MenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Time.timeScale = 1.0f;
     }
 
     // Update is called once per frame
@@ -24,6 +24,37 @@ public class MenuManager : MonoBehaviour
     public void SelectLevel(int i)
     {
         LevelManager.level = levels[i];
-        SceneManager.LoadScene("GameScene");
+        //SceneManager.LoadScene("GameScene");
+        difficultyPanel.SetActive(true);
+        LevelManager.level.dialogueType = Level.DialogueType.Intro;
+    }
+
+
+    public void SelectEasyDifficulty()
+    {
+        Debug.Log("SelectHardDifficulty called!");
+        LevelManager.level.noteTimer = 15;
+        if (LevelManager.level.introDialogue == null)
+        {
+            SceneManager.LoadScene("GameScene");
+        }
+        else
+        {
+            SceneManager.LoadScene("DialogueScene");
+        }
+    }
+
+    public void SelectHardDifficulty()
+    {
+        Debug.Log("SelectHardDifficulty called!");
+        LevelManager.level.noteTimer = 9;
+        if (LevelManager.level.introDialogue == null)
+        {
+            SceneManager.LoadScene("GameScene");
+        }
+        else
+        {
+            SceneManager.LoadScene("DialogueScene");
+        }
     }
 }

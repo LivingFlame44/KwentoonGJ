@@ -21,7 +21,11 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ProcessInputs(); 
+        if(LearningSystem.instance.isAnswering == false)
+        {
+            ProcessInputs();
+        }
+        
     }
 
     void FixedUpdate()

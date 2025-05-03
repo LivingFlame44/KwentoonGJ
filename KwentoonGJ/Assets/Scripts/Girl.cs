@@ -38,6 +38,7 @@ public class Girl : MonoBehaviour
 
     public IEnumerator LerpToTarget(Vector3 endPoint, GameObject stickyNote)
     {
+        endPoint = endPoint + new Vector3(0, 0.65f, 0);
         Vector3 startPosition = transform.position;
         float distance = Vector3.Distance(startPosition, endPoint);
         float duration = distance / speed;

@@ -12,10 +12,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05497472cb17ae84295d272cf9e854f2, type: 3}
   m_Name: Level1
   m_EditorClassIdentifier: 
-  wordTotal: 5
-  quizQuestionsTotal: 3
+  levelNum: 0
+  wordTotal: 18
+  quizQuestionsTotal: 8
   wordList:
-  - {fileID: 11400000, guid: d05f2a6185e40fb44a2890abcdd0e8ea, type: 2}
-  - {fileID: 11400000, guid: f93448542caf872488959e71b68e6d93, type: 2}
-  - {fileID: 11400000, guid: 48087b2815c55b04191f7a5b0582c532, type: 2}
-  noteTimer: 10
+  - {fileID: 11400000, guid: 34cd11b696ca4a7429fd00eb5ef11da2, type: 2}
+  - {fileID: 11400000, guid: 27215f4af06ee0c48963a48f3be88906, type: 2}
+  - {fileID: 11400000, guid: 1b429b58d1312c14d8adc013b21ea92d, type: 2}
+  - {fileID: 11400000, guid: 0bbd9695898680341b3d7202741be68f, type: 2}
+  - {fileID: 11400000, guid: 2ce77e701d462be4e833112afa4acba9, type: 2}
+  - {fileID: 11400000, guid: 0243578a522b84a458be95c5168f9001, type: 2}
+  - {fileID: 11400000, guid: 027e4387a9a22f647bed6d01d972c357, type: 2}
+  - {fileID: 11400000, guid: d7738bbe8a0213a47a26c423a8dd2250, type: 2}
+  - {fileID: 11400000, guid: f61bedf1241001741863f616d26ce0a4, type: 2}
+  - {fileID: 11400000, guid: 1f8e4475601aca74cb5f2a09bb3e51f3, type: 2}
+  - {fileID: 11400000, guid: aa3a81c8e31be1844bd40f4b97795b9d, type: 2}
+  - {fileID: 11400000, guid: 16d428b254562a44980f7c7475d1604a, type: 2}
+  - {fileID: 11400000, guid: 3bd7d8c564cfe134c812c3b3d0d4a6df, type: 2}
+  - {fileID: 11400000, guid: 8d36ad07cbd718e43baef15811107e32, type: 2}
+  - {fileID: 11400000, guid: 4adf6da535ac036409f22d7858e2cbf6, type: 2}
+  - {fileID: 11400000, guid: 8a6fd1c7229731947a8c1319793a2408, type: 2}
+  - {fileID: 11400000, guid: acb76e7bfb260ff4086401f53628e31d, type: 2}
+  - {fileID: 11400000, guid: 969c35ff4954bb145a2c9f6f17052a6d, type: 2}
+  - {fileID: 11400000, guid: 0f1b57b00b2d71d44a263dead2149278, type: 2}
+  - {fileID: 11400000, guid: e5679bc0280f52e4aa8c3de010d0bc41, type: 2}
+  - {fileID: 11400000, guid: aa7762450330a4f4ea41522690fb90d8, type: 2}
+  - {fileID: 11400000, guid: 34edc3248d0ff9349a6828dd00d7a49e, type: 2}
+  - {fileID: 11400000, guid: 5fd075cc38f54fd4babb115e3772cd36, type: 2}
+  - {fileID: 11400000, guid: 2b03464f99fffb34f914fd90a8cb486f, type: 2}
+  - {fileID: 11400000, guid: e57e278fdfbb12a40a5395be8728559f, type: 2}
+  - {fileID: 11400000, guid: b0048b0a46c558f4d9532aaf7012c5eb, type: 2}
+  - {fileID: 11400000, guid: b32a03943c3ea6645a77d6f37c5517c3, type: 2}
+  - {fileID: 11400000, guid: 2887f48f181ef6d4fa6dc25cab583c69, type: 2}
+  - {fileID: 11400000, guid: 160531dcd37f0724597371edc9557da0, type: 2}
+  - {fileID: 11400000, guid: 8e23857dcf0060d4ba4890de59373ff8, type: 2}
+  - {fileID: 11400000, guid: 6ccb17e6ec8a12647a15ddd96e7e0803, type: 2}
+  - {fileID: 11400000, guid: a24df8952b5d9f849a7303975c42e418, type: 2}
+  - {fileID: 11400000, guid: c7b49522f6ccd6249b9e53e9498afe24, type: 2}
+  - {fileID: 11400000, guid: 510ee70af43dd434daf7c0e613c4658f, type: 2}
+  - {fileID: 11400000, guid: 9e2bfa63958d2994c9cfc66778a32a4e, type: 2}
+  - {fileID: 11400000, guid: 918a3ac6f6dca9a489ad2e5b448eabdc, type: 2}
+  - {fileID: 11400000, guid: 73d0acf9e4848074cac6f8902d8d8b18, type: 2}
+  - {fileID: 11400000, guid: 7e3e2d20f3753d04c96c820fd87d0842, type: 2}
+  - {fileID: 11400000, guid: 271dc9a6d5cf9d74a9e2a61546ca3eeb, type: 2}
+  - {fileID: 11400000, guid: 67200ab5bef2a854586b81e5d35d915b, type: 2}
+  - {fileID: 11400000, guid: 1e1d40453a41e1c47976499af5dbc79d, type: 2}
+  - {fileID: 11400000, guid: a5cf25ac1b97c6449a6ff34f95f41696, type: 2}
+  - {fileID: 11400000, guid: 3b74640b58265694f80d09eb2b08611d, type: 2}
+  - {fileID: 11400000, guid: d898ad56b1a91f44b9ac00b71c007ada, type: 2}
+  - {fileID: 11400000, guid: 92b305bf8a8facf49a6e7a857083f3b1, type: 2}
+  - {fileID: 11400000, guid: 038468abb241f3040bbae2417a04d76d, type: 2}
+  - {fileID: 11400000, guid: 2ae820a8c83a2bf4d84d0c0971dac621, type: 2}
+  - {fileID: 11400000, guid: 854d69f6b532d5147ab4e733c552720b, type: 2}
+  - {fileID: 11400000, guid: a45cc88415f69304d81a18bf6ab35001, type: 2}
+  - {fileID: 11400000, guid: 9f6d381c68ac31740b9b1c3848a51f47, type: 2}
+  noteTimer: 9
+  introDialogue: {fileID: 11400000, guid: e92837795ee9b4644b48378b48072887, type: 2}
+  outroDialogue: {fileID: 0}
+  dialogueType: 0

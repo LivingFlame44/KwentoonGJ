@@ -15,6 +15,13 @@ public class Level : ScriptableObject
     public DialogueTrigger introDialogue;
     public DialogueTrigger outroDialogue;
     // Start is called before the first frame update
+    public DialogueType dialogueType;
+    public enum DialogueType
+    {
+        Intro,
+        End,
+        None
+    }
     void Start()
     {
         

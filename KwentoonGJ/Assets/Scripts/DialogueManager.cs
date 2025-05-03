@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
-
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject dialoguePanel;
     public Image charIcon;
+    public Image sceneBG;
     public TextMeshProUGUI charName;
     public TextMeshProUGUI charDialogue;
 
@@ -43,13 +44,35 @@ public class DialogueManager : MonoBehaviour
     }
     void Start()
     {
+        Time.timeScale = 1.0f;
         lines = new Queue<DialogueLine>();
         //cam = Camera.main;
+        if(LevelManager.level.dialogueType == Level.DialogueType.Intro)
+        {
+            LevelManager.level.introDialogue.TriggerDialogue();
+        }
+        else
+        {
+            LevelManager.level.outroDialogue.TriggerDialogue();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        CheckNextDialogueClick();
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            if (LevelManager.level.dialogueType == Level.DialogueType.Intro)
+            {
+                SceneManager.LoadScene("GameScene");
+            }
+            else
+            {
+                SceneManager.LoadScene("MainMenu");
+            }
+        }
         //if(castRays)
         //{
         //    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -91,7 +114,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void StartDialogue(Dialogue1 dialogue)
+    public void StartDialogue(Dialogue dialogue)
     {
         if (dialogue.dialogueLines.Count != 0)
         {
@@ -140,7 +163,6 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-
             charName.gameObject.SetActive(true);
             charName.text = currentLine.character.name;
         }
@@ -151,9 +173,18 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-
             charIcon.gameObject.SetActive(true);
             charIcon.sprite = currentLine.character.icon;
+        }
+
+        if (currentLine.bgImage == null)
+        {
+
+        }
+        else
+        {
+            sceneBG.gameObject.SetActive(true);
+            sceneBG.sprite = currentLine.bgImage;
         }
 
 
@@ -182,6 +213,16 @@ public class DialogueManager : MonoBehaviour
         StopAllCoroutines();
 
         dialoguePanel.gameObject.SetActive(false);
+
+        if (LevelManager.level.dialogueType == Level.DialogueType.Intro)
+        {
+            SceneManager.LoadScene("GameScene");
+        }
+        else
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
+        
     }
 
  

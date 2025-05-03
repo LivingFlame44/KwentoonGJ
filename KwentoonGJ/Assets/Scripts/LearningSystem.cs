@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using UnityEditor.Searcher;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +11,8 @@ public class LearningSystem : MonoBehaviour
     public QuizManager quizManager;
     public bool hasStartedCD;
     public int stickyNotesCount;
+
+    public bool isAnswering;
 
     public GameObject girl;
     public Girl girlScript; 
@@ -123,7 +124,7 @@ public class LearningSystem : MonoBehaviour
     public void OnAnswer() 
     {
         learningPanel.SetActive(false);
-
+        isAnswering = false;
         stickyNotesCount = stickyNotesCount + 1;
         noteCountText.text = stickyNotesCount.ToString();
 

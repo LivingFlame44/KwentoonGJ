@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
+//using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -14,15 +14,15 @@ public class DialogueCharacter
 [System.Serializable]
 public class DialogueLine
 {
+    public Sprite bgImage;
     public DialogueCharacter character;
     [TextArea(3, 10)]
     public string line;
 
-    public List<Dialogue1> choices = new List<Dialogue1>();
     public UnityEvent onEndLineEvent;
 }
 [System.Serializable]
-public class Dialogue1
+public class Dialogue
 {
     public string dialogueName;
     public List<DialogueLine> dialogueLines = new List<DialogueLine>();
@@ -32,7 +32,7 @@ public class Dialogue1
 public class DialogueTrigger : ScriptableObject
 {
     [SerializeField]
-    public Dialogue1 dialogue;
+    public Dialogue dialogue;
     // Start is called before the first frame update
     void Start()
     {

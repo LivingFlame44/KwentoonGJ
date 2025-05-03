@@ -120,7 +120,7 @@ public class NoteFall : MonoBehaviour
 
     public IEnumerator FallDownCountDown()
     {
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(LevelManager.level.noteTimer);
         //StartCoroutine(LerpToTarget());
         StartCoroutine(NoteRemoveCD());
         hasReachedTarget = false;

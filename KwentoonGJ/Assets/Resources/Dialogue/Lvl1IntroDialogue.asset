@@ -16,10 +16,23 @@ MonoBehaviour:
     dialogueName: 
     dialogueLines:
     - character:
-        name: 
-        icon: {fileID: 0}
-      line: 
-      choices: []
+        name: Towa
+        icon: {fileID: 21300000, guid: 1a0c712c72a7b5c419380568395f1154, type: 3}
+      line: KOnyappi
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - character:
+        name: Towa
+        icon: {fileID: 21300000, guid: 1a0c712c72a7b5c419380568395f1154, type: 3}
+      line: Hololive yonsei tokoyyami towa desu
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - character:
+        name: Luna
+        icon: {fileID: 21300000, guid: 189ffd64e4eebe5449b721666de4bffd, type: 3}
+      line: NAAAAAAA
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
