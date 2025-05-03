@@ -15,8 +15,6 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI charName;
     public TextMeshProUGUI charDialogue;
 
-    public UnityEvent dialogueEndEvent;
-
     private Queue<DialogueLine> lines;
 
     public bool isDialogueActive = false;
@@ -93,7 +91,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void StartDialogue(Dialogue1 dialogue, UnityEvent dialogueEvent)
+    public void StartDialogue(Dialogue1 dialogue)
     {
         if (dialogue.dialogueLines.Count != 0)
         {
@@ -107,8 +105,6 @@ public class DialogueManager : MonoBehaviour
                 lines.Enqueue(dialogueLine);
             }
 
-            dialogueEndEvent = dialogueEvent;
-
             DisplayNextDialogueLine();
         }
         else
@@ -121,7 +117,7 @@ public class DialogueManager : MonoBehaviour
     {
 
         //checks if end of dialogue ands has no choices
-        if (lines.Count == 0 && currentLine.hasChoice == false)
+        if (lines.Count == 0)
         {
             EndDialogue();
             return;
@@ -186,8 +182,6 @@ public class DialogueManager : MonoBehaviour
         StopAllCoroutines();
 
         dialoguePanel.gameObject.SetActive(false);
-
-        dialogueEndEvent.Invoke();
     }
 
  
