@@ -14,7 +14,6 @@ public class DialogueCharacter
 [System.Serializable]
 public class DialogueLine
 {
-    public bool hasChoice;
     public DialogueCharacter character;
     [TextArea(3, 10)]
     public string line;
@@ -26,10 +25,11 @@ public class DialogueLine
 public class Dialogue1
 {
     public string dialogueName;
-    public UnityEvent dialogueEndEvent;
     public List<DialogueLine> dialogueLines = new List<DialogueLine>();
 }
-public class DialogueTrigger : MonoBehaviour
+
+[CreateAssetMenu(fileName = "DialogueTrigger", menuName = "ScriptableObjects/DialogueTrigger")]
+public class DialogueTrigger : ScriptableObject
 {
     [SerializeField]
     public Dialogue1 dialogue;
@@ -47,7 +47,7 @@ public class DialogueTrigger : MonoBehaviour
     public void TriggerDialogue()
     {
         Debug.Log("talk");
-        DialogueManager.Instance.StartDialogue(dialogue, dialogue.dialogueEndEvent);
+        DialogueManager.Instance.StartDialogue(dialogue);
     }
 
     public virtual void Choose()
