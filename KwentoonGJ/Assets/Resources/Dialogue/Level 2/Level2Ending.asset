@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: Level2Ending
   m_EditorClassIdentifier: 
   dialogue:
-    dialogueName: 
     dialogueLines: []
