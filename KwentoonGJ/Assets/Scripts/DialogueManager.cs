@@ -18,10 +18,6 @@ public class DialogueManager : MonoBehaviour
     public UnityEvent dialogueEndEvent;
 
     private Queue<DialogueLine> lines;
-    private string prevName;
-
-    public GameObject choicePanel;
-    public Button[] choiceButtons;
 
     public bool isDialogueActive = false;
     public float typingSpeed;
@@ -29,15 +25,8 @@ public class DialogueManager : MonoBehaviour
 
     public DialogueLine currentLine;
 
-    public GameObject[] textBoxPrefabs;
-    public GameObject textBoxPanel;
-    public Scrollbar dialogueScrollbar;
-
     public TMP_FontAsset nameFont;
     public TMP_FontAsset messageFont;
-
-    public List<GameObject> activeLeftTextList, inactiveLeftTextList, activeRightTextList,
-        inactiveRightTextList, activeMiddleTextList, inactiveMiddleTextList;
 
     //public LayerMask canNextDialogue;
     //Camera cam;
@@ -45,15 +34,6 @@ public class DialogueManager : MonoBehaviour
 
     //private bool castRays = true;
     // Start is called before the first frame update
-
-
-    public enum TextType
-    {
-        Name,
-        MyDialogue,
-        OtherDialogue,
-        NarratorDialogue,
-    }
 
     private void Awake()
     {
@@ -128,8 +108,6 @@ public class DialogueManager : MonoBehaviour
             }
 
             dialogueEndEvent = dialogueEvent;
-
-            
 
             DisplayNextDialogueLine();
         }

@@ -12,6 +12,8 @@ public class Level : ScriptableObject
     public Word[] wordList;
 
     public float noteTimer;
+    public DialogueTrigger introDialogue;
+    public DialogueTrigger outroDialogue;
     // Start is called before the first frame update
     void Start()
     {
