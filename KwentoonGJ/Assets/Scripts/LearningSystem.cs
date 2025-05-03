@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEditor.Searcher;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LearningSystem : MonoBehaviour
 {
     public static LearningSystem instance;
     public RandomSpawn randomSpawn;
-
+    public QuizManager quizManager;
     public bool hasStartedCD;
     public int stickyNotesCount;
 
@@ -23,6 +24,8 @@ public class LearningSystem : MonoBehaviour
     public TextMeshProUGUI wordText, correctText, meaningText;
     public TMP_InputField inputField;
 
+    public TextMeshProUGUI noteCountText;
+
     public GameObject notesParent;
     public GameObject stickyNotePrefab;
     public List<GameObject> activeNotesList = new List<GameObject>();
@@ -30,15 +33,19 @@ public class LearningSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+         
+        currentWord = LevelManager.instance.wordList[0];
+        StartNewLesson();
+    }
+
+    private void Awake()
+    {
         if (instance == null)
         {
             instance = this;
         }
 
         girlScript = girl.GetComponent<Girl>();
-
-        currentWord = LevelManager.instance.wordList[0];
-        StartNewLesson();
     }
 
     // Update is called once per frame
@@ -48,6 +55,7 @@ public class LearningSystem : MonoBehaviour
         {
             if(stickyNotesCount == 0)
             {
+                GameManager.instance.TimeGameOver();
                 //GAmeover
             }        
         }
@@ -56,9 +64,10 @@ public class LearningSystem : MonoBehaviour
     public void ShowLearningPanel()
     {
         learningPanel.SetActive(true);
-
+        inputField.ActivateInputField();
         wordText.text = currentWord.word;
         meaningText.text = currentWord.wordInfo;
+        
 
     }
 
@@ -113,21 +122,27 @@ public class LearningSystem : MonoBehaviour
 
     public void OnAnswer() 
     {
-        if(currentIndex == LevelManager.instance.level.wordTotal - 1)
-        {
+        learningPanel.SetActive(false);
 
+        stickyNotesCount = stickyNotesCount + 1;
+        noteCountText.text = stickyNotesCount.ToString();
+
+        if (currentIndex == LevelManager.level.wordTotal - 1)
+        {
+            quizManager.quizPanel.SetActive(true);
+
+            quizManager.AssignChoices();
             //start quiz
         }
 
         else
         {
-            learningPanel.SetActive(false);
-
-            stickyNotesCount = stickyNotesCount + 1;
+            
             hasStartedCD = true;
 
             currentNote.transform.GetChild(0).gameObject.SetActive(true);
             currentNote.GetComponent<Collider2D>().enabled = false;
+            currentNote.GetComponent<NoteFall>().enabled = true;
             NextWord();
             StartNewLesson();
             ResetLearningPanel();
@@ -154,6 +169,10 @@ public class LearningSystem : MonoBehaviour
             if (inputText[i] == currentWord.word.ToLower()[i])
             {
                 correctLetter = correctLetter + currentWord.word[i];
+            }
+            else
+            {
+                break;
             }
         }
 

@@ -5,7 +5,7 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager instance;
-    public Level level;
+    public static Level level;
 
     //public int wordTotal;
     //public int quizQuestionsTotal;
@@ -53,6 +53,8 @@ public class LevelManager : MonoBehaviour
             }
             
         }
+
+        wordsInQuiz.Shuffle();
     }
 
 

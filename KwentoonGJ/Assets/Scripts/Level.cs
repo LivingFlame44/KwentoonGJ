@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Level", menuName = "ScriptableObjects/Level")]
 public class Level : ScriptableObject
 {
+    public int levelNum;
     public int wordTotal;
     public int quizQuestionsTotal;
     
