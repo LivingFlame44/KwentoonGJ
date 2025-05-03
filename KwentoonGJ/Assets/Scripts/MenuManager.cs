@@ -11,7 +11,6 @@ public class MenuManager : MonoBehaviour
     public GameObject difficultyPanel;
 
     public Level[] levels;
-    public int[] lsevels;
 
     public static bool introWatched;
     public enum MenuPanels

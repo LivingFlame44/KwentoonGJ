@@ -69,8 +69,10 @@ public class DialogueManager : MonoBehaviour
                 SceneManager.LoadScene("GameScene");
             }
             else
-            {
+            {               
+                MenuManager.currentMenuScene = MenuManager.MenuPanels.LEVELSELECT;               
                 SceneManager.LoadScene("MainMenu");
+                Time.timeScale = 1f; Time.timeScale = 1f;
             }
         }
         //if(castRays)
@@ -220,7 +222,9 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
+            MenuManager.currentMenuScene = MenuManager.MenuPanels.LEVELSELECT;
             SceneManager.LoadScene("MainMenu");
+            Time.timeScale = 1f; Time.timeScale = 1f;
         }
         
     }

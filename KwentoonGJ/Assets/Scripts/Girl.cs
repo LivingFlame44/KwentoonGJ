@@ -7,9 +7,11 @@ public class Girl : MonoBehaviour
 {
     public GameObject girl;
     public float speed;
+    public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
+        //animator = GetComponent<Animator>();
         speed = 3.5f;
     }
 
@@ -40,10 +42,21 @@ public class Girl : MonoBehaviour
     {
         endPoint = endPoint + new Vector3(0, 0.65f, 0);
         Vector3 startPosition = transform.position;
+
+        if(endPoint.x > startPosition.x)
+        {
+            animator.SetBool("isRight", true);
+        }
+        else
+        {
+            animator.SetBool("isRight", false);
+        }
+
         float distance = Vector3.Distance(startPosition, endPoint);
         float duration = distance / speed;
         float elapsedTime = 0f;
 
+        animator.SetBool("isMoving", true);
         while (elapsedTime < duration)
         {
             // Calculate interpolation factor (0 to 1)
@@ -60,7 +73,7 @@ public class Girl : MonoBehaviour
 
         // Ensure we exactly reach the target position
         transform.position = endPoint;
-
+        animator.SetBool("isMoving", false);
         stickyNote.SetActive(true);
 
     }

@@ -70,6 +70,7 @@ public class LearningSystem : MonoBehaviour
 
     public void ShowLearningPanel()
     {
+        isAnswering = true;
         learningPanel.SetActive(true);
         inputField.ActivateInputField();
         wordText.text = currentWord.word;
@@ -130,7 +131,6 @@ public class LearningSystem : MonoBehaviour
     public void OnAnswer() 
     {
         learningPanel.SetActive(false);
-        isAnswering = false;
         stickyNotesCount = stickyNotesCount + 1;
         noteCountText.text = stickyNotesCount.ToString();
 
@@ -146,7 +146,7 @@ public class LearningSystem : MonoBehaviour
         {
             
             hasStartedCD = true;
-
+            isAnswering = false;
             currentNote.transform.GetChild(0).gameObject.SetActive(true);
             currentNote.GetComponent<Collider2D>().enabled = false;
             currentNote.GetComponent<NoteFall>().enabled = true;

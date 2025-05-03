@@ -24,7 +24,7 @@ public class DialogueLine
 [System.Serializable]
 public class Dialogue
 {
-    public string dialogueName;
+    //public string dialogueName;
     public List<DialogueLine> dialogueLines = new List<DialogueLine>();
 }
 

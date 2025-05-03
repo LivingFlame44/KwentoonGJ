@@ -19,7 +19,10 @@ public class PauseManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Pause();
+        }
     }
 
     public void Menu()
@@ -55,9 +58,17 @@ public class PauseManager : MonoBehaviour
     }
     public void Continue()
     {
-        SceneManager.LoadScene("MainMenu");
-        MenuManager.currentMenuScene = MenuManager.MenuPanels.LEVELSELECT;
-        Time.timeScale = 1f;
+        if (LevelManager.level.outroDialogue == null)
+        {
+            MenuManager.currentMenuScene = MenuManager.MenuPanels.LEVELSELECT;
+            SceneManager.LoadScene("MainMenu");
+            Time.timeScale = 1f;
+        }
+        else
+        {
+            LevelManager.level.dialogueType = Level.DialogueType.End;
+            SceneManager.LoadScene("DialogueScene");
+        }
     }
 
     public void RollCredits()

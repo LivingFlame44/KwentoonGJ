@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Level3
   m_EditorClassIdentifier: 
   levelNum: 2
-  wordTotal: 25
-  quizQuestionsTotal: 12
+  wordTotal: 20
+  quizQuestionsTotal: 10
   wordList:
   - {fileID: 11400000, guid: d7f0d6f414519b1439fd4f4e06ed5e08, type: 2}
   - {fileID: 11400000, guid: 554934fe32c83d04ba7f74b7d6a719b1, type: 2}
