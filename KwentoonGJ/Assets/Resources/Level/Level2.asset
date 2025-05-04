@@ -67,6 +67,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 37dd1e4fea41f824ca89a4549cb7bc7e, type: 2}
   - {fileID: 11400000, guid: 628940748906eb241861aa3d3ce19822, type: 2}
   noteTimer: 9
-  introDialogue: {fileID: 0}
-  outroDialogue: {fileID: 0}
+  introDialogue: {fileID: 11400000, guid: 25eda07ec377237449227213070bbd7c, type: 2}
+  outroDialogue: {fileID: 11400000, guid: a05e2473366aade4f817f755dde47d86, type: 2}
   dialogueType: 0
