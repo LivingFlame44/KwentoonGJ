@@ -13,5 +13,109 @@ MonoBehaviour:
   m_Name: Level3Intro
   m_EditorClassIdentifier: 
   dialogue:
-    dialogueName: 
-    dialogueLines: []
+    dialogueLines:
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: 
+        icon: {fileID: 0}
+      line: "(The classroom hums with nervous energy as students fidget in their
+        seats. Angelo's knee bounces uncontrollably, his pencil tapping a frantic
+        rhythm against the desk. His eyes dart across the unfamiliar words on the
+        practice sheet, each one suddenly looking foreign again. The air feels too
+        thick to breathe\u2014)"
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: Cali
+        icon: {fileID: 21300000, guid: 51c9523d7b5e98343a61b552a126c1df, type: 3}
+      line: 'Cali: (leaning in as she passes by, her voice a warm whisper in his
+        ear) "Hey. Look at me."'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: 
+        icon: {fileID: 21300000, guid: f26753f9fc8e95d44b9316ecb68f6ea7, type: 3}
+      line: "(Angelo turns, meeting her steady gaze. She smiles\u2014not her usual
+        teasing grin, but something softer. Certain.)"
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: Cali
+        icon: {fileID: 21300000, guid: 51c9523d7b5e98343a61b552a126c1df, type: 3}
+      line: "Cali: \"Remember how you spelled 'ridiculous' right after I made you
+        write it fifty times? Or when you finally got 'necessary' without the coffee
+        song?\" (Her fingers briefly squeeze his shoulder\u2014a fleeting, grounding
+        touch.) \"You know this. So ace it already... or miss out on that big surprise
+        I promised.\" (A wink.) \"Your choice, hotshot.\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: 
+        icon: {fileID: 21300000, guid: e4154a880e8ca134ba8db8cfa50734fc, type: 3}
+      line: "(Angelo's blush burns to the tips of his ears, but the knot in his chest
+        loosens. The words on the page sharpen into focus. He takes a deep breath\u2014)"
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: e4154a880e8ca134ba8db8cfa50734fc, type: 3}
+      line: 'Angelo: (muttering) "Y-yeah. For the... the surprise. Obviously."'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: 
+        icon: {fileID: 21300000, guid: 0a3822c9445f7074888309c6eeeead6d, type: 3}
+      line: (Cali smirks as she slips into her seat, but her hands clutch her own
+        pencil a little too tightly. The teacher claps for attention.)
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: Teacher
+        icon: {fileID: 0}
+      line: "Teacher: \"Alright, settle down! Exam starts now\u2014front rows, pass
+        your papers back.\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: 
+        icon: {fileID: 21300000, guid: e4154a880e8ca134ba8db8cfa50734fc, type: 3}
+      line: "*(Rustling papers fill the room. Angelo exhales, rolling his shoulders.
+        When his test lands in front of him, the words no longer swim\u2014they\u2019re
+        just words. His pencil hovers over the first line as Cali\u2019s voice echoes
+        in his mind: \"You know this.\")"
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: 21f9d8d0cd6108f4cae613fb47143057, type: 3}
+      line: "Angelo (Thoughts): \"Okay. Let\u2019s do this. For me... and for her.\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: 
+        icon: {fileID: 0}
+      line: "(The clock ticks. He begins to write\u2014no hesitation, no second-guessing.
+        For the first time, it feels like the letters are on his side.)"
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
