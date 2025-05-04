@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0eebe88ebc0684428b1732f0219c6ff, type: 3}
+  m_Name: Prologue
+  m_EditorClassIdentifier: 
+  dialogue:
+    dialogueLines:
+    - bgImage: {fileID: 21300000, guid: d307e9d8ac343124cb849d33c24a984b, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: f26753f9fc8e95d44b9316ecb68f6ea7, type: 3}
+      line: "The world is too loud. Too sharp. Too many words I don\u2019t understand,
+        too many letters that twist and laugh at me when I try to write them down."
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: d48d0e37d0b96c44faaa95df2a739f08, type: 3}
+      character:
+        name: NPC
+        icon: {fileID: 0}
+      line: '"Did you hear how he pronounced that?"'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: d48d0e37d0b96c44faaa95df2a739f08, type: 3}
+      character:
+        name: NPC
+        icon: {fileID: 0}
+      line: "\"Look at his spelling\u2014it\u2019s like a child wrote it!\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: d48d0e37d0b96c44faaa95df2a739f08, type: 3}
+      character:
+        name: NPC
+        icon: {fileID: 0}
+      line: '"How can someone be this bad at English?"'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: d48d0e37d0b96c44faaa95df2a739f08, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: f26753f9fc8e95d44b9316ecb68f6ea7, type: 3}
+      line: "Every day, the same whispers, the same smirks. Every day, I shrink a
+        little more. I used to love stories\u2014big, wild tales of heroes and adventures.
+        But now? Now I hate them. Because in those stories, the weak become strong.
+        The dumb become wise. But me? I stay stuck. A joke. A stupid foreigner who
+        can\u2019t even spell \"friend\" right."
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: d48d0e37d0b96c44faaa95df2a739f08, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: e4154a880e8ca134ba8db8cfa50734fc, type: 3}
+      line: "Then... there\u2019s her."
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: d48d0e37d0b96c44faaa95df2a739f08, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: 9b658bfe3499a1b45bb3e52944ddedb6, type: 3}
+      line: Cali.
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: d48d0e37d0b96c44faaa95df2a739f08, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: 0a3822c9445f7074888309c6eeeead6d, type: 3}
+      line: "She sits next to me in class, her notebook open, her pen tapping lightly
+        against the paper. The first time she spoke to me, I braced myself for another
+        laugh, another \"Oh my god, you\u2019re so bad at this.\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: d48d0e37d0b96c44faaa95df2a739f08, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: 51c9523d7b5e98343a61b552a126c1df, type: 3}
+      line: But instead, she tilted her head and said, "Hey, want me to help?"
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: d48d0e37d0b96c44faaa95df2a739f08, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: e4154a880e8ca134ba8db8cfa50734fc, type: 3}
+      line: No pity. No mocking. Just... help.
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: d48d0e37d0b96c44faaa95df2a739f08, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: 0a3822c9445f7074888309c6eeeead6d, type: 3}
+      line: "Now, she\u2019s the only reason I don\u2019t skip school. She teaches
+        me words\u2014really teaches me. Not like the teachers who sigh when I ask
+        questions, not like the kids who mimic my accent. She breaks them down, piece
+        by piece, like puzzles. \"Beautiful. B-E-A-U-T-I-F-U-L. It\u2019s a weird
+        spelling, I know. Even though I messed it up before.\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: d48d0e37d0b96c44faaa95df2a739f08, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: 51c9523d7b5e98343a61b552a126c1df, type: 3}
+      line: She lies. I know she never messed it up. But she says it anyway.
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: d48d0e37d0b96c44faaa95df2a739f08, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: de2456ccbbb90d344996b4d8a2ca7028, type: 3}
+      line: When the others whisper, she talks louder. When I stumble, she waits.
+        Not like the world, rushing past me, leaving me behind. She stays.
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: d48d0e37d0b96c44faaa95df2a739f08, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: e4154a880e8ca134ba8db8cfa50734fc, type: 3}
+      line: "I don\u2019t care about the big world anymore. The one that tears me
+        apart. My world is small now\u2014just the space between us when we sit together,
+        just her voice saying, \"You\u2019re getting better.\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 826188b7f31d7fb41838197521a4a4eb, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: e4154a880e8ca134ba8db8cfa50734fc, type: 3}
+      line: "And for now? That\u2019s enough."
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
