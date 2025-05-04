@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
 
@@ -8,11 +9,20 @@ public class Girl : MonoBehaviour
     public GameObject girl;
     public float speed;
     public Animator animator;
+
+    public bool firstTaken;
+    public TextMeshPro chatText;
+    public string[] sentenceList;
     // Start is called before the first frame update
     void Start()
     {
         //animator = GetComponent<Animator>();
         speed = 3.5f;
+    }
+
+    private void Awake()
+    {
+        chatText = GetComponentInChildren<TextMeshPro>();
     }
 
     // Update is called once per frame
@@ -74,7 +84,21 @@ public class Girl : MonoBehaviour
         // Ensure we exactly reach the target position
         transform.position = endPoint;
         animator.SetBool("isMoving", false);
+        if(firstTaken)
+        {
+            ChangeChat();
+        }
+        else
+        {
+            firstTaken = true;
+        }
         stickyNote.SetActive(true);
 
     }
+
+    public void ChangeChat()
+    {
+        int randomNum = Random.Range(0, sentenceList.Length);
+        chatText.text = sentenceList[randomNum];
+    } 
 }

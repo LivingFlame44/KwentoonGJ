@@ -29,6 +29,8 @@ public class LearningSystem : MonoBehaviour
 
     public GameObject notesParent;
     public GameObject stickyNotePrefab;
+    public Sprite[] stickyNotesColorList;
+
     public List<GameObject> activeNotesList = new List<GameObject>();
     public List<GameObject> inactiveNotesList = new List<GameObject>();
     // Start is called before the first frame update
@@ -100,7 +102,15 @@ public class LearningSystem : MonoBehaviour
         currentNote.transform.GetChild(0).gameObject.GetComponent<TextMeshPro>().text = currentWord.word;
         currentNote.transform.GetChild(0).gameObject.SetActive(false);
         currentNote.transform.position = notePos;
+        currentNote.transform.GetChild(2).gameObject.GetComponent<SpriteRenderer>().sprite = GetRandomColor();
         currentNote.SetActive(false);
+    }
+
+    public Sprite GetRandomColor()
+    {
+        int randomNum = Random.Range(0, stickyNotesColorList.Length);
+
+        return stickyNotesColorList[randomNum];
     }
 
     public void StartNewLesson()
