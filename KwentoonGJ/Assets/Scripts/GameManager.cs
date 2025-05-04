@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1.0f;
+
         //gameOver += GameOver;
     }
 
@@ -36,6 +37,7 @@ public class GameManager : MonoBehaviour
     {
         gameOverPanel.SetActive(true);
         quizFailText.SetActive(true);
+        AudioManager.Instance.PlayMusic("Lose Music");
         Time.timeScale = 0f;
     }
 
@@ -43,12 +45,13 @@ public class GameManager : MonoBehaviour
     {
         gameOverPanel.SetActive(true);
         timeRunOutText.SetActive(true);
-       
+        AudioManager.Instance.PlayMusic("Lose Music");
         Time.timeScale = 0f;
     }
     public void LevelClear()
     {
         stageClearPanel.SetActive(true);
+        AudioManager.Instance.PlayMusic("Win Music");
         Time.timeScale = 0f;
     }
 }

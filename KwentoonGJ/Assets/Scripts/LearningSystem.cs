@@ -37,7 +37,7 @@ public class LearningSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-         
+        AudioManager.Instance.PlayMusic("In-Game BGM");
         currentWord = LevelManager.instance.wordList[0];
         StartNewLesson();
         UpdateLearnedNotesText();
@@ -229,5 +229,14 @@ public class LearningSystem : MonoBehaviour
         Time.timeScale = 1f;
         tutorialPanel.SetActive(false);
         tutorialDone = true;
+    }
+
+    public void PlayBtnSFX1()
+    {
+        AudioManager.Instance.PlaySFX("ButtonClick1");
+    }
+    public void PlayBtnSFX2()
+    {
+        AudioManager.Instance.PlaySFX("ButtonClick2");
     }
 }

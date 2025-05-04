@@ -66,6 +66,7 @@ public class PauseManager : MonoBehaviour
         }
         else
         {
+            AudioManager.Instance.PlayMusic("MAIN MENU");
             LevelManager.level.dialogueType = Level.DialogueType.End;
             SceneManager.LoadScene("DialogueScene");
         }

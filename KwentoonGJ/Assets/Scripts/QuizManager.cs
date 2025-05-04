@@ -44,6 +44,8 @@ public class QuizManager : MonoBehaviour
                 choiceBtns[i].GetComponent<Button>().onClick.RemoveAllListeners();
                 choiceBtns[i].GetComponent<Button>().onClick.AddListener(WrongAnswer);
             }
+
+            choiceBtns[i].GetComponent<Button>().onClick.AddListener(LearningSystem.instance.PlayBtnSFX2);
         }
     }
 

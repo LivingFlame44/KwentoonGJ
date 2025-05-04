@@ -25,6 +25,24 @@ public class MenuManager : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1.0f;
+        
+        AudioManager.Instance.PlayMusic("MAIN MENU");
+    }
+
+    private void Awake()
+    {
+        switch (currentMenuScene)
+        {
+            case MenuPanels.MAINMENU:
+                ShowMainMenu();
+                break;
+            case MenuPanels.LEVELSELECT:
+                LevelSelectMenu();
+                break;
+            case MenuPanels.SETTINGS:
+                ShowSettings();
+                break;
+        }
     }
 
     // Update is called once per frame
@@ -114,5 +132,10 @@ public class MenuManager : MonoBehaviour
         {
             SceneManager.LoadScene("DialogueScene");
         }
+    }
+
+    public void PlayBtnSFX()
+    {
+        AudioManager.Instance.PlaySFX("ButtonClick1");
     }
 }
