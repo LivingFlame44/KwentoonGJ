@@ -13,4 +13,224 @@ MonoBehaviour:
   m_Name: Epilogue
   m_EditorClassIdentifier: 
   dialogue:
-    dialogueLines: []
+    dialogueLines:
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: 
+        icon: {fileID: 0}
+      line: "(The classroom was unnervingly quiet as the teacher shuffled through
+        the test papers. Angelo gripped the edge of his desk, his palms slick with
+        sweat. Cali sat beside him, her usual confidence replaced by barely-contained
+        anticipation\u2014she kept glancing at Angelo, then quickly looking away
+        when he noticed.)"
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: Teacher
+        icon: {fileID: 0}
+      line: 'Teacher: (clearing throat dramatically) "Before I return your exams,
+        I want to acknowledge something extraordinary." (She paused, scanning the
+        room.) "This was the hardest spelling test of the year... yet two students
+        achieved perfect scores."'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: 
+        icon: {fileID: 0}
+      line: (A murmur rippled through the class. Angelo swallowed hard. Cali reached
+        under the desk and gave his hand a quick, reassuring squeeze before pulling
+        away.)
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: Teacher
+        icon: {fileID: 0}
+      line: "Teacher: (smiling) \"First, as expected\u2014Cali.\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: 
+        icon: {fileID: 0}
+      line: (Polite applause. Cali gave a small nod, but her eyes stayed locked on
+        Angelo, her lips pressed together like she was holding back a secret.)
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: Teacher
+        icon: {fileID: 0}
+      line: 'Teacher: (flipping through papers) "And the second perfect score..."
+        (A dramatic pause. The clock ticked loudly.) "...belongs to someone who failed
+        this very exam three times before."'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: 
+        icon: {fileID: 0}
+      line: (The room tensed. Angelo's heart hammered so hard he was sure everyone
+        could hear it.)
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: Teacher
+        icon: {fileID: 0}
+      line: 'Teacher: (grinning now) "Angelo."'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: 
+        icon: {fileID: 0}
+      line: "(Silence. Complete, utter silence. For one breathless second, no one
+        moved. Then\u2014)"
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: NPC
+        icon: {fileID: 0}
+      line: 'Student 1: "No way! He never even passed before!"'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: NPC
+        icon: {fileID: 0}
+      line: "Student 2: (scoffing) \"Bet he cheated\u2014\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: Cali
+        icon: {fileID: 21300000, guid: de2456ccbbb90d344996b4d8a2ca7028, type: 3}
+      line: "Cali: (slamming her hands on her desk, standing so fast her chair toppled)
+        \"Try saying that again.\" (Her voice was ice. The room fell silent.) \"I
+        watched him study until his hands cramped. He rewrote every word fifty times.
+        So unless you\u2019re calling me a liar\u2014\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: e9a79b39600f02241924d282466914eb, type: 3}
+      line: "Angelo: (gently touching her wrist) \"Cali.\" (He stood, meeting the
+        class\u2019s stares\u2014no stutter, no hesitation.) \"I did fail before.
+        A lot. But this?\" (He gestured to the test paper the teacher placed on his
+        desk, the red \"100%\" glowing.) \"This is mine.\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
+      character:
+        name: 
+        icon: {fileID: 0}
+      line: "(The teacher nodded approvingly. A few students mumbled apologies. Cali
+        exhaled, her anger melting into something warmer as she looked at Angelo\u2014really
+        looked at him. The boy who used to flinch at his own shadow now stood tall.)"
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: eda1d230ec7bb7348886348696093499, type: 3}
+      character:
+        name: 
+        icon: {fileID: 0}
+      line: "(After class, Cali grabbed Angelo\u2019s hand and dragged him through
+        the halls. He stumbled after her, heart pounding\u2014until she pushed open
+        the library doors, sunlight streaming over the study tables where they\u2019d
+        spent so many hours.)"
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: eda1d230ec7bb7348886348696093499, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: e9a79b39600f02241924d282466914eb, type: 3}
+      line: "Angelo: \"C-Cali? What\u2019s\u2014\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: eda1d230ec7bb7348886348696093499, type: 3}
+      character:
+        name: Cali
+        icon: {fileID: 21300000, guid: de2456ccbbb90d344996b4d8a2ca7028, type: 3}
+      line: "Cali: (spinning to face him, eyes blazing) \"I lied.\" (His stomach
+        dropped\u2014until she fisted his shirt and yanked him down.) \"My surprise
+        wasn\u2019t just words.\" (Her lips met his in a clumsy, perfect kiss. When
+        she pulled back, her cheeks were pink.) \"It was this. I love you, you ridiculous,
+        hardworking\u2014\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: eda1d230ec7bb7348886348696093499, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: 94c901a7531459442acec7dd66f1890e, type: 3}
+      line: 'Angelo: (laughing through tears, hugging her so tight her feet left
+        the ground) "Looks like I just need to find the words also. Cali... I love
+        you too..."'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: eda1d230ec7bb7348886348696093499, type: 3}
+      character:
+        name: 
+        icon: {fileID: 21300000, guid: 9b658bfe3499a1b45bb3e52944ddedb6, type: 3}
+      line: "(She laughed into his shoulder\u2014bright and unguarded\u2014as the
+        library clock ticked past the moment they became something new.)"
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: eda1d230ec7bb7348886348696093499, type: 3}
+      character:
+        name: Cali
+        icon: {fileID: 21300000, guid: 51c9523d7b5e98343a61b552a126c1df, type: 3}
+      line: 'Cali: "I love you too, dummy." (Poking his nose.) "Now come on. I owe
+        you a date after all that spelling torture."'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: eda1d230ec7bb7348886348696093499, type: 3}
+      character:
+        name: 
+        icon: {fileID: 0}
+      line: "(And as they walked out hand-in-hand, Angelo realized: the words that
+        once trapped him had set him free\u2014into a world where \"Cali\" and \"love\"
+        fit together as naturally as ink on paper.)"
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: eda1d230ec7bb7348886348696093499, type: 3}
+      character:
+        name: Teacher
+        icon: {fileID: 0}
+      line: 'Teacher: (calling after them, amused) "No PDA in the hallways!"'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: eda1d230ec7bb7348886348696093499, type: 3}
+      character:
+        name: 
+        icon: {fileID: 0}
+      line: "(They ignored her, too busy spelling out their happy ending\u2014one
+        perfect score at a time.)"
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
