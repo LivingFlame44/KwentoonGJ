@@ -37,21 +37,24 @@ public class GameManager : MonoBehaviour
     {
         gameOverPanel.SetActive(true);
         quizFailText.SetActive(true);
-        AudioManager.Instance.PlayMusic("Lose Music");
+    
         Time.timeScale = 0f;
+        AudioManager.Instance.PlayMusic("Lose Music");
     }
 
     public void TimeGameOver()
     {
         gameOverPanel.SetActive(true);
         timeRunOutText.SetActive(true);
-        AudioManager.Instance.PlayMusic("Lose Music");
+        
         Time.timeScale = 0f;
+        AudioManager.Instance.PlayMusic("Lose Music");
     }
     public void LevelClear()
     {
         stageClearPanel.SetActive(true);
-        AudioManager.Instance.PlayMusic("Win Music");
+        
         Time.timeScale = 0f;
+        AudioManager.Instance.PlayMusic("Win Music");
     }
 }
