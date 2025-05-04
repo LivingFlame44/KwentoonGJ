@@ -13,5 +13,119 @@ MonoBehaviour:
   m_Name: Level2Intro
   m_EditorClassIdentifier: 
   dialogue:
-    dialogueName: 
-    dialogueLines: []
+    dialogueLines:
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: 
+        icon: {fileID: 0}
+      line: (Golden afternoon light spills across the classroom desks as Cali approaches
+        Angelo, who's hunched over her notes. The papers are visibly worn - corners
+        folded, edges frayed from constant handling, and covered in messy annotations
+        in three different colors of ink.)
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: Cali
+        icon: {fileID: 21300000, guid: 0a3822c9445f7074888309c6eeeead6d, type: 3}
+      line: 'Cali: (leaning against the desk with crossed arms) "Well? Did my notes
+        survive your study war, or should I prepare a funeral?"'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: 
+        icon: {fileID: 21300000, guid: 5be3db49cc1213545be9f733dc5d4945, type: 3}
+      line: Angelo looks up, dark circles under his eyes but with an uncharacteristically
+        bright grin.
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: e4154a880e8ca134ba8db8cfa50734fc, type: 3}
+      line: 'Angelo: "They put up a good fight! Though I might''ve... uh..." (he
+        sheepishly smooths out a page torn at the edge) "...loved them a little too
+        hard?"'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: 
+        icon: {fileID: 21300000, guid: 50cf98f673b2e3344b36b741ab0f9375, type: 3}
+      line: Cali picks up the notes, running her fingers over the dog-eared pages
+        and ink smudges. A strange warmth flickers in her chest as she sees entire
+        sections highlighted with shaky but determined strokes.
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: Cali
+        icon: {fileID: 21300000, guid: 0a3822c9445f7074888309c6eeeead6d, type: 3}
+      line: 'Cali: (soft chuckle) "Damn. You really went to town on these." (under
+        her breath, almost inaudible) "...you idiot."'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: e9a79b39600f02241924d282466914eb, type: 3}
+      line: 'Angelo: (tilting head) "Hmm?"'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: Cali
+        icon: {fileID: 21300000, guid: 9b658bfe3499a1b45bb3e52944ddedb6, type: 3}
+      line: 'Cali: (snapping back to her usual teasing tone) "Nothing! Just thinking
+        how I should''ve charged you rent for how much time you spent with these."
+        (She tosses the notes back with a playful smirk) "Now. Prove it wasn''t for
+        nothing, hotshot."'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: 
+        icon: {fileID: 21300000, guid: f26753f9fc8e95d44b9316ecb68f6ea7, type: 3}
+      line: Angelo straightens up, cracking his knuckles dramatically.
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: e4154a880e8ca134ba8db8cfa50734fc, type: 3}
+      line: 'Angelo: "Prepare to be amazed! The new and improved Angelo 2.0 comes
+        with..." (counting on fingers) "...20% less spelling errors and 100% more
+        confidence!"'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: Cali
+        icon: {fileID: 21300000, guid: b4da33b2540d00c47b82b38d4f82462a, type: 3}
+      line: 'Cali: (snorting) "We''ll see about that. First word - ''necessary''.
+        And no cheating by singing the ''one coffee, two sugars'' song!"'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: 
+        icon: {fileID: 21300000, guid: 21f9d8d0cd6108f4cae613fb47143057, type: 3}
+      line: (As Angelo groans but starts writing anyway, Cali watches his focused
+        expression - the way his tongue pokes out slightly when concentrating, the
+        determined set of his jaw. Something in her chest tightens, but she quickly
+        shakes it off as their study session begins in earnest.)
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
