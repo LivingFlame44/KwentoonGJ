@@ -30,8 +30,8 @@ MonoBehaviour:
       character:
         name: Cali
         icon: {fileID: 21300000, guid: 51c9523d7b5e98343a61b552a126c1df, type: 3}
-      line: 'Cali: (leaning in as she passes by, her voice a warm whisper in his
-        ear) "Hey. Look at me."'
+      line: (leaning in as she passes by, her voice a warm whisper in his ear) Hey.
+        Look at me.
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -48,11 +48,11 @@ MonoBehaviour:
       character:
         name: Cali
         icon: {fileID: 21300000, guid: 51c9523d7b5e98343a61b552a126c1df, type: 3}
-      line: "Cali: \"Remember how you spelled 'ridiculous' right after I made you
-        write it fifty times? Or when you finally got 'necessary' without the coffee
-        song?\" (Her fingers briefly squeeze his shoulder\u2014a fleeting, grounding
-        touch.) \"You know this. So ace it already... or miss out on that big surprise
-        I promised.\" (A wink.) \"Your choice, hotshot.\""
+      line: "Remember how you spelled 'ridiculous' right after I made you write it
+        fifty times? Or when you finally got 'necessary' without the coffee song?\"
+        (Her fingers briefly squeeze his shoulder\u2014a fleeting, grounding touch.)
+        \"You know this. So ace it already... or miss out on that big surprise I
+        promised.\" (A wink.) \"Your choice, hotshot."
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -69,7 +69,7 @@ MonoBehaviour:
       character:
         name: Angelo
         icon: {fileID: 21300000, guid: e4154a880e8ca134ba8db8cfa50734fc, type: 3}
-      line: 'Angelo: (muttering) "Y-yeah. For the... the surprise. Obviously."'
+      line: (muttering) Y-yeah. For the... the surprise. Obviously.
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -86,8 +86,8 @@ MonoBehaviour:
       character:
         name: Teacher
         icon: {fileID: 0}
-      line: "Teacher: \"Alright, settle down! Exam starts now\u2014front rows, pass
-        your papers back.\""
+      line: "Alright, settle down! Exam starts now\u2014front rows, pass your papers
+        back."
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -106,7 +106,7 @@ MonoBehaviour:
       character:
         name: Angelo
         icon: {fileID: 21300000, guid: 21f9d8d0cd6108f4cae613fb47143057, type: 3}
-      line: "Angelo (Thoughts): \"Okay. Let\u2019s do this. For me... and for her.\""
+      line: "(\"Okay. Let\u2019s do this. For me... and for her.\")"
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []

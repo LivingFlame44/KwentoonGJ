@@ -30,10 +30,10 @@ MonoBehaviour:
       character:
         name: Teacher
         icon: {fileID: 0}
-      line: 'Teacher: (clearing throat dramatically) "Before I return your exams,
-        I want to acknowledge something extraordinary." (She paused, scanning the
-        room.) "This was the hardest spelling test of the year... yet two students
-        achieved perfect scores."'
+      line: (clearing throat dramatically) Before I return your exams, I want to
+        acknowledge something extraordinary. (She paused, scanning the room.) This
+        was the hardest spelling test of the year... yet two students achieved perfect
+        scores.
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -51,7 +51,7 @@ MonoBehaviour:
       character:
         name: Teacher
         icon: {fileID: 0}
-      line: "Teacher: (smiling) \"First, as expected\u2014Cali.\""
+      line: "(smiling) First, as expected\u2014Cali."
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -68,9 +68,9 @@ MonoBehaviour:
       character:
         name: Teacher
         icon: {fileID: 0}
-      line: 'Teacher: (flipping through papers) "And the second perfect score..."
-        (A dramatic pause. The clock ticked loudly.) "...belongs to someone who failed
-        this very exam three times before."'
+      line: (flipping through papers) And the second perfect score... (A dramatic
+        pause. The clock ticked loudly.) ...belongs to someone who failed this very
+        exam three times before.
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -87,7 +87,7 @@ MonoBehaviour:
       character:
         name: Teacher
         icon: {fileID: 0}
-      line: 'Teacher: (grinning now) "Angelo."'
+      line: (grinning now) Angelo.
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -102,17 +102,17 @@ MonoBehaviour:
           m_Calls: []
     - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
       character:
-        name: NPC
+        name: Student 1
         icon: {fileID: 0}
-      line: 'Student 1: "No way! He never even passed before!"'
+      line: No way! He never even passed before!
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
     - bgImage: {fileID: 21300000, guid: 6fbc5f0bfbf88b64b970c90c3b4ef7e9, type: 3}
       character:
-        name: NPC
+        name: Student 2
         icon: {fileID: 0}
-      line: "Student 2: (scoffing) \"Bet he cheated\u2014\""
+      line: "(scoffing) Bet he cheated\u2014"
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -120,10 +120,10 @@ MonoBehaviour:
       character:
         name: Cali
         icon: {fileID: 21300000, guid: de2456ccbbb90d344996b4d8a2ca7028, type: 3}
-      line: "Cali: (slamming her hands on her desk, standing so fast her chair toppled)
-        \"Try saying that again.\" (Her voice was ice. The room fell silent.) \"I
-        watched him study until his hands cramped. He rewrote every word fifty times.
-        So unless you\u2019re calling me a liar\u2014\""
+      line: "(slamming her hands on her desk, standing so fast her chair toppled)
+        Try saying that again. (Her voice was ice. The room fell silent.) I watched
+        him study until his hands cramped. He rewrote every word fifty times. So
+        unless you\u2019re calling me a liar\u2014"
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -131,10 +131,10 @@ MonoBehaviour:
       character:
         name: Angelo
         icon: {fileID: 21300000, guid: e9a79b39600f02241924d282466914eb, type: 3}
-      line: "Angelo: (gently touching her wrist) \"Cali.\" (He stood, meeting the
-        class\u2019s stares\u2014no stutter, no hesitation.) \"I did fail before.
-        A lot. But this?\" (He gestured to the test paper the teacher placed on his
-        desk, the red \"100%\" glowing.) \"This is mine.\""
+      line: "(gently touching her wrist) Cali. (He stood, meeting the class\u2019s
+        stares\u2014no stutter, no hesitation.) I did fail before. A lot. But this?
+        (He gestured to the test paper the teacher placed on his desk, the red \"100%\"
+        glowing.) This is mine."
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -163,7 +163,7 @@ MonoBehaviour:
       character:
         name: Angelo
         icon: {fileID: 21300000, guid: e9a79b39600f02241924d282466914eb, type: 3}
-      line: "Angelo: \"C-Cali? What\u2019s\u2014\""
+      line: "C-Cali? What\u2019s\u2014"
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -171,11 +171,10 @@ MonoBehaviour:
       character:
         name: Cali
         icon: {fileID: 21300000, guid: de2456ccbbb90d344996b4d8a2ca7028, type: 3}
-      line: "Cali: (spinning to face him, eyes blazing) \"I lied.\" (His stomach
-        dropped\u2014until she fisted his shirt and yanked him down.) \"My surprise
-        wasn\u2019t just words.\" (Her lips met his in a clumsy, perfect kiss. When
-        she pulled back, her cheeks were pink.) \"It was this. I love you, you ridiculous,
-        hardworking\u2014\""
+      line: "(spinning to face him, eyes blazing) I lied. (His stomach dropped\u2014until
+        she fisted his shirt and yanked him down.) My surprise wasn\u2019t just words.
+        (Her lips met his in a clumsy, perfect kiss. When she pulled back, her cheeks
+        were pink.) It was this. I love you, you ridiculous, hardworking\u2014"
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -183,9 +182,8 @@ MonoBehaviour:
       character:
         name: Angelo
         icon: {fileID: 21300000, guid: 94c901a7531459442acec7dd66f1890e, type: 3}
-      line: 'Angelo: (laughing through tears, hugging her so tight her feet left
-        the ground) "Looks like I just need to find the words also. Cali... I love
-        you too..."'
+      line: (laughing through tears, hugging her so tight her feet left the ground)
+        Looks like I just need to find the words also. Cali... I love you too...
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -202,8 +200,8 @@ MonoBehaviour:
       character:
         name: Cali
         icon: {fileID: 21300000, guid: 51c9523d7b5e98343a61b552a126c1df, type: 3}
-      line: 'Cali: "I love you too, dummy." (Poking his nose.) "Now come on. I owe
-        you a date after all that spelling torture."'
+      line: I love you too, dummy. (Poking his nose.) Now come on. I owe you a date
+        after all that spelling torture.
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -221,7 +219,7 @@ MonoBehaviour:
       character:
         name: Teacher
         icon: {fileID: 0}
-      line: 'Teacher: (calling after them, amused) "No PDA in the hallways!"'
+      line: (calling after them, amused) No PDA in the hallways!
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []

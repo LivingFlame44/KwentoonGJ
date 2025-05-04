@@ -28,10 +28,9 @@ MonoBehaviour:
       character:
         name: 
         icon: {fileID: 0}
-      line: "Teacher: \"Time's up! Pass your papers forward\u2014neatly, please.
-        Remember, scores will be posted Monday morning.\" (A stern look around the
-        room) \"And to those already celebrating? Remedial classes don't care about
-        your confidence.\""
+      line: "Time's up! Pass your papers forward\u2014neatly, please. Remember, scores
+        will be posted Monday morning. (A stern look around the room) And to those
+        already celebrating? Remedial classes don't care about your confidence."
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -49,7 +48,7 @@ MonoBehaviour:
       character:
         name: Angelo
         icon: {fileID: 21300000, guid: e4154a880e8ca134ba8db8cfa50734fc, type: 3}
-      line: 'Angelo: (exhaling dramatically) "Wow. That was... actually doable?"
+      line: '(exhaling dramatically) Wow. That was... actually doable?
 
 '
       onEndLineEvent:
@@ -59,8 +58,8 @@ MonoBehaviour:
       character:
         name: Cali
         icon: {fileID: 21300000, guid: 9b658bfe3499a1b45bb3e52944ddedb6, type: 3}
-      line: 'Cali: (leaning in, voice teasing but eyes bright) "Oh? So Mr. ''I-forget-everything-in-nine-seconds''
-        is suddenly a spelling expert?"'
+      line: (leaning in, voice teasing but eyes bright) Oh? So Mr. 'I-forget-everything-in-nine-seconds'
+        is suddenly a spelling expert?
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -68,8 +67,8 @@ MonoBehaviour:
       character:
         name: Angelo
         icon: {fileID: 21300000, guid: e4154a880e8ca134ba8db8cfa50734fc, type: 3}
-      line: 'Angelo: (grinning) "Nah. Just had a really annoying tutor who wouldn''t
-        let me quit." (His tone softens) "Best thing that ever happened to me, though."'
+      line: (grinning) Nah. Just had a really annoying tutor who wouldn't let me
+        quit. (His tone softens) Best thing that ever happened to me, though.
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -87,8 +86,8 @@ MonoBehaviour:
       character:
         name: Cali
         icon: {fileID: 21300000, guid: b4da33b2540d00c47b82b38d4f82462a, type: 3}
-      line: 'Cali: (clearing throat) "W-well, don''t get too cocky. We''ll see if
-        your answers match that ego on Monday."'
+      line: (clearing throat) W-well, don't get too cocky. We'll see if your answers
+        match that ego on Monday.
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -96,8 +95,8 @@ MonoBehaviour:
       character:
         name: Angelo
         icon: {fileID: 21300000, guid: e4154a880e8ca134ba8db8cfa50734fc, type: 3}
-      line: 'Angelo: (laughing) "Oh, they will. And you know what that means..."
-        (waggling eyebrows) "Surprise better be good."'
+      line: (laughing) Oh, they will. And you know what that means... (waggling eyebrows)
+        Surprise better be good.
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -113,8 +112,8 @@ MonoBehaviour:
       character:
         name: Cali
         icon: {fileID: 21300000, guid: de2456ccbbb90d344996b4d8a2ca7028, type: 3}
-      line: "Cali: \"I\u2014! You\u2014! Ugh! Just\u2014!\" (She grabs her bag, fighting
-        a losing battle against her smile) \"Text me over the weekend. Or... whatever.\""
+      line: "I\u2014! You\u2014! Ugh! Just\u2014! (She grabs her bag, fighting a
+        losing battle against her smile) Text me over the weekend. Or... whatever."
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []

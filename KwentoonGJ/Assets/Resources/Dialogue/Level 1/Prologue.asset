@@ -25,7 +25,7 @@ MonoBehaviour:
           m_Calls: []
     - bgImage: {fileID: 21300000, guid: d48d0e37d0b96c44faaa95df2a739f08, type: 3}
       character:
-        name: NPC
+        name: Voices
         icon: {fileID: 0}
       line: '"Did you hear how he pronounced that?"'
       onEndLineEvent:
@@ -33,7 +33,7 @@ MonoBehaviour:
           m_Calls: []
     - bgImage: {fileID: 21300000, guid: d48d0e37d0b96c44faaa95df2a739f08, type: 3}
       character:
-        name: NPC
+        name: Voices
         icon: {fileID: 0}
       line: "\"Look at his spelling\u2014it\u2019s like a child wrote it!\""
       onEndLineEvent:
@@ -41,7 +41,7 @@ MonoBehaviour:
           m_Calls: []
     - bgImage: {fileID: 21300000, guid: d48d0e37d0b96c44faaa95df2a739f08, type: 3}
       character:
-        name: NPC
+        name: Voices
         icon: {fileID: 0}
       line: '"How can someone be this bad at English?"'
       onEndLineEvent:

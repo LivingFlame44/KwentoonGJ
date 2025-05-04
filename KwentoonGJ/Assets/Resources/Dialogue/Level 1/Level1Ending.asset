@@ -18,8 +18,8 @@ MonoBehaviour:
       character:
         name: Cali
         icon: {fileID: 21300000, guid: 0a3822c9445f7074888309c6eeeead6d, type: 3}
-      line: "Cali: (snapping her notebook shut with a satisfied grin) \"Alright,
-        that\u2019s enough for today. Your brain\u2019s probably steaming by now.\""
+      line: "(snapping her notebook shut with a satisfied grin) Alright, that\u2019s
+        enough for today. Your brain\u2019s probably steaming by now."
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -27,9 +27,9 @@ MonoBehaviour:
       character:
         name: Angelo
         icon: {fileID: 21300000, guid: 5be3db49cc1213545be9f733dc5d4945, type: 3}
-      line: "Angelo: (rubbing his temples dramatically) \"More like melting. But\u2026
-        thanks, Cali. Seriously. You\u2019re, like, the only person who doesn\u2019t
-        treat me like I\u2019m hopeless.\""
+      line: "(rubbing his temples dramatically) More like melting. But\u2026 thanks,
+        Cali. Seriously. You\u2019re, like, the only person who doesn\u2019t treat
+        me like I\u2019m hopeless."
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -37,9 +37,9 @@ MonoBehaviour:
       character:
         name: Cali
         icon: {fileID: 21300000, guid: b4da33b2540d00c47b82b38d4f82462a, type: 3}
-      line: "Cali: (rolling her eyes, but her smirk softens) \"Yeah, yeah. Just don\u2019t
-        make me regret it, okay?\" (She pokes his shoulder.) \"Review the stuff we
-        went over\u2014or I\u2019ll make you spell \u2018phenomenon\u2019 next time.\""
+      line: "(rolling her eyes, but her smirk softens) Yeah, yeah. Just don\u2019t
+        make me regret it, okay? (She pokes his shoulder.) Review the stuff we went
+        over\u2014or I\u2019ll make you spell \u2018phenomenon\u2019 next time."
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -47,7 +47,7 @@ MonoBehaviour:
       character:
         name: Angelo
         icon: {fileID: 21300000, guid: 94c901a7531459442acec7dd66f1890e, type: 3}
-      line: "Angelo: (mock gasping) \"That\u2019s not even a real word!\""
+      line: "(mock gasping) That\u2019s not even a real word!"
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -55,9 +55,9 @@ MonoBehaviour:
       character:
         name: Cali
         icon: {fileID: 21300000, guid: 51c9523d7b5e98343a61b552a126c1df, type: 3}
-      line: "Cali: \"It is, and you\u2019ll cry when you see it.\" (She swings her
-        bag onto her shoulder, but pauses.) \"\u2026You\u2019re doing better than
-        you think, though.\""
+      line: "It is, and you\u2019ll cry when you see it. (She swings her bag onto
+        her shoulder, but pauses.) \u2026You\u2019re doing better than you think,
+        though."
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -65,16 +65,16 @@ MonoBehaviour:
       character:
         name: Angelo
         icon: {fileID: 21300000, guid: e4154a880e8ca134ba8db8cfa50734fc, type: 3}
-      line: "Angelo: (blinking) \"Wait, was that\u2026 a compliment?\""
+      line: "(blinking) Wait, was that\u2026 a compliment?"
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
     - bgImage: {fileID: 21300000, guid: 90884eadec0d29441a7d4984f869def9, type: 3}
       character:
         name: Cali
-        icon: {fileID: 21300000, guid: 0a3822c9445f7074888309c6eeeead6d, type: 3}
-      line: "\rCali: (already walking away, waving dismissively) \"Don\u2019t let
-        it go to your head! See you tomorrow, dummy.\"\r\n"
+        icon: {fileID: 21300000, guid: 8432cc663f1508040a74b19b7822f70f, type: 3}
+      line: "(already walking away, waving dismissively) Don\u2019t let it go to
+        your head! See you tomorrow, dummy.\r\n"
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []

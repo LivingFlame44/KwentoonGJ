@@ -29,9 +29,9 @@ MonoBehaviour:
       character:
         name: Cali
         icon: {fileID: 21300000, guid: 0a3822c9445f7074888309c6eeeead6d, type: 3}
-      line: 'Cali: (voice catching slightly) "Wow... I guess my teaching skills really
-        are legendary." (She tries to play it cool, but her eyes shine with pride)
-        "At this rate, you won''t need me anymore."'
+      line: (voice catching slightly) Wow... I guess my teaching skills really are
+        legendary. (She tries to play it cool, but her eyes shine with pride) At
+        this rate, you won't need me anymore.
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -48,10 +48,10 @@ MonoBehaviour:
       character:
         name: Angelo
         icon: {fileID: 21300000, guid: 94c901a7531459442acec7dd66f1890e, type: 3}
-      line: 'Angelo: "Don''t even joke about that." (His usual nervous energy is
-        replaced with quiet sincerity) "Every correct spelling here? That''s you.
-        Every time I didn''t give up? That''s you." (He taps his temple) "You''re
-        stuck in here now, Cali. No refunds."'
+      line: 'Angelo: Don''t even joke about that. (His usual nervous energy is replaced
+        with quiet sincerity) Every correct spelling here? That''s you. Every time
+        I didn''t give up? That''s you. (He taps his temple) You''re stuck in here
+        now, Cali. No refunds.'
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -68,8 +68,8 @@ MonoBehaviour:
       character:
         name: Cali
         icon: {fileID: 21300000, guid: de2456ccbbb90d344996b4d8a2ca7028, type: 3}
-      line: 'Cali: "S-shut up! Just... go crush that test tomorrow, okay?" (Voice
-        dropping to a fierce whisper) "Make those jerks eat their words."'
+      line: 'Cali: S-shut up! Just... go crush that test tomorrow, okay? (Voice dropping
+        to a fierce whisper) Make those jerks eat their words.'
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -86,9 +86,9 @@ MonoBehaviour:
       character:
         name: Cali
         icon: {fileID: 21300000, guid: 9b658bfe3499a1b45bb3e52944ddedb6, type: 3}
-      line: 'Cali: (suddenly) "Angelo!" (He spins back. She bites her lip, then flashes
-        a mischievous grin that doesn''t quite reach her nervous eyes) "Ace it...
-        and I''ll tell you something important. Promise."'
+      line: (suddenly) Angelo! (He spins back. She bites her lip, then flashes a
+        mischievous grin that doesn't quite reach her nervous eyes) Ace it... and
+        I'll tell you something important. Promise.
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -104,16 +104,15 @@ MonoBehaviour:
       character:
         name: Angelo
         icon: {fileID: 21300000, guid: e4154a880e8ca134ba8db8cfa50734fc, type: 3}
-      line: "Angelo: \"WH\u2014 I MEAN\u2014 THAT IS TO SAY\u2014\" (His voice cracks
-        spectacularly as he scrambles for the dropped bag) \"Y-YES MA'AM! I MEAN
-        CALI! I\u2014 I'LL\u2014\""
+      line: "WH\u2014 I MEAN\u2014 THAT IS TO SAY\u2014 (His voice cracks spectacularly
+        as he scrambles for the dropped bag) Y-YES MA'AM! I MEAN CALI! I\u2014 I'LL\u2014"
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
     - bgImage: {fileID: 21300000, guid: c052d84d624661e4f8bc3e7ffcc79eb5, type: 3}
       character:
         name: 
-        icon: {fileID: 21300000, guid: 9b658bfe3499a1b45bb3e52944ddedb6, type: 3}
+        icon: {fileID: 21300000, guid: 8432cc663f1508040a74b19b7822f70f, type: 3}
       line: (Cali bursts into laughter, the tension broken as she backs away down
         the hallway.)
       onEndLineEvent:
@@ -123,9 +122,9 @@ MonoBehaviour:
       character:
         name: Cali
         icon: {fileID: 21300000, guid: b4da33b2540d00c47b82b38d4f82462a, type: 3}
-      line: "Cali: \"Better study extra hard then, dummy~!\" (Her retreating figure
-        hides her pounding heart\u2014and the way her fingers nervously twist the
-        hem of her shirt.)"
+      line: "Better study extra hard then, dummy~! (Her retreating figure hides her
+        pounding heart\u2014and the way her fingers nervously twist the hem of her
+        shirt.)"
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
