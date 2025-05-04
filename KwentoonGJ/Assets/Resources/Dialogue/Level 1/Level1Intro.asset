@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     dialogueLines:
-    - bgImage: {fileID: 0}
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
       character:
         name: 
         icon: {fileID: 0}
@@ -22,7 +22,7 @@ MonoBehaviour:
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
-    - bgImage: {fileID: 0}
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
       character:
         name: Teacher
         icon: {fileID: 0}
@@ -31,11 +31,117 @@ MonoBehaviour:
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
-    - bgImage: {fileID: 0}
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
       character:
         name: 
         icon: {fileID: 0}
-      line: (School bell chimes, signaling the end of class.)
+      line: (The classroom erupts into chatter as students pack up. Angelo stares
+        blankly at his notebook, fingers tightening around his pencil. Cali glances
+        at him, noticing the way his shoulders tense at the mention of the exam.)
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: Cali
+        icon: {fileID: 21300000, guid: 51c9523d7b5e98343a61b552a126c1df, type: 3}
+      line: 'Cali: (leaning closer) "Hey. You okay?"'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: 
+        icon: {fileID: 21300000, guid: e4154a880e8ca134ba8db8cfa50734fc, type: 3}
+      line: '(Angelo flinches, then forces a weak smile.)
+
+'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: e9a79b39600f02241924d282466914eb, type: 3}
+      line: 'Angelo: "Y-yeah. Just... thinking."'
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: Cali
+        icon: {fileID: 21300000, guid: 51c9523d7b5e98343a61b552a126c1df, type: 3}
+      line: "\rCali: (raising an eyebrow) \"About how you\u2019re gonna fail?\"\r\n"
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: 
+        icon: {fileID: 21300000, guid: 5be3db49cc1213545be9f733dc5d4945, type: 3}
+      line: "(Angelo\u2019s face falls. She sighs, nudging his arm playfully.)"
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: Cali
+        icon: {fileID: 21300000, guid: 0a3822c9445f7074888309c6eeeead6d, type: 3}
+      line: "Cali: \"Relax. I\u2019ll help you study.\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: e9a79b39600f02241924d282466914eb, type: 3}
+      line: "Angelo: (blinking) \"Huh? But I\u2014I forget things super fast. Like,
+        poof.\" (He mimics an explosion with his hands.) \"Nine seconds. Maybe fifteen
+        if I\u2019m lucky.\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: Cali
+        icon: {fileID: 21300000, guid: 0a3822c9445f7074888309c6eeeead6d, type: 3}
+      line: "Cali: (grinning) \"Then I\u2019ll just drill it into your skull until
+        it sticks. Fair warning, though\u2014\" (She pokes his forehead.) \"\u2014I\u2019m
+        brutal.\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: 
+        icon: {fileID: 21300000, guid: e4154a880e8ca134ba8db8cfa50734fc, type: 3}
+      line: (Angelo hesitates, then nods, a real smile tugging at his lips.)
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: Angelo
+        icon: {fileID: 21300000, guid: e9a79b39600f02241924d282466914eb, type: 3}
+      line: "Angelo: \"Okay. Let\u2019s do it.\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: Cali
+        icon: {fileID: 21300000, guid: 9b658bfe3499a1b45bb3e52944ddedb6, type: 3}
+      line: "Cali: \"First word: \u2018Definitely.\u2019 And no, it\u2019s not \u2018D-E-F-I-N-A-T-E-L-Y\u2019\u2014don\u2019t
+        even try that again.\""
+      onEndLineEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - bgImage: {fileID: 21300000, guid: cfe7b838dd519c646873879094a83c44, type: 3}
+      character:
+        name: 
+        icon: {fileID: 21300000, guid: 94c901a7531459442acec7dd66f1890e, type: 3}
+      line: (Angelo groans as they walk out together, her laughter mixing with his
+        protests.)
       onEndLineEvent:
         m_PersistentCalls:
           m_Calls: []
