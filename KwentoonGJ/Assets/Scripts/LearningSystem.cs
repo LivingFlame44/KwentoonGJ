@@ -13,6 +13,7 @@ public class LearningSystem : MonoBehaviour
     public int stickyNotesCount;
 
     public bool isAnswering;
+    public static bool tutorialDone;
 
     public GameObject girl;
     public Girl girlScript; 
@@ -21,7 +22,7 @@ public class LearningSystem : MonoBehaviour
     public GameObject currentNote;
     public int currentIndex;
 
-    public GameObject learningPanel;
+    public GameObject learningPanel, tutorialPanel;
     public TextMeshProUGUI wordText, correctText, meaningText;
     public TMP_InputField inputField;
 
@@ -101,6 +102,10 @@ public class LearningSystem : MonoBehaviour
         }
         currentNote.transform.GetChild(0).gameObject.GetComponent<TextMeshPro>().text = currentWord.word;
         currentNote.transform.GetChild(0).gameObject.SetActive(false);
+
+        currentNote.GetComponent<Collider2D>().enabled = true;
+        currentNote.GetComponent<NoteFall>().enabled = false;
+
         currentNote.transform.position = notePos;
         currentNote.transform.GetChild(2).gameObject.GetComponent<SpriteRenderer>().sprite = GetRandomColor();
         currentNote.SetActive(false);
@@ -164,6 +169,10 @@ public class LearningSystem : MonoBehaviour
             StartNewLesson();
             ResetLearningPanel();
             UpdateLearnedNotesText();
+            if(tutorialDone == false)
+            {
+                StartTutorial();
+            }
         }
 
     }
@@ -208,5 +217,17 @@ public class LearningSystem : MonoBehaviour
         //    i++;
         //}
         correctText.text = correctLetter;
+    }
+
+    public void StartTutorial()
+    {
+        tutorialPanel.SetActive(true);
+        Time.timeScale = 0f;
+    }
+    public void FinishTutorial()
+    {
+        Time.timeScale = 1f;
+        tutorialPanel.SetActive(false);
+        tutorialDone = true;
     }
 }

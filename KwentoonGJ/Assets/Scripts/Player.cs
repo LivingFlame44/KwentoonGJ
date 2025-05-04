@@ -30,7 +30,17 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
-        Move();
+        if (LearningSystem.instance.isAnswering == false)
+        {
+            Move();
+        }
+        else
+        {
+            animator.SetFloat("Horizontal", 0);
+            //animator.SetFloat("Vertical", moveY);
+            animator.SetFloat("Speed", 0);
+        }
+        
     }
 
     void ProcessInputs()

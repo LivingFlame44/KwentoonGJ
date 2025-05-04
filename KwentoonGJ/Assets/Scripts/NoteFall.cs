@@ -70,6 +70,11 @@ public class NoteFall : MonoBehaviour
                 targetPosition.y,
                 transform.position.z
             );
+            LearningSystem.instance.inactiveNotesList.Add(this.gameObject);
+            LearningSystem.instance.activeNotesList.Remove(this.gameObject);
+            this.gameObject.SetActive(false);
+
+            
         }
     }
 

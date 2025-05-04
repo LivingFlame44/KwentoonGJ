@@ -23,7 +23,7 @@ public class AudioManager : MonoBehaviour
     }
     private void Start()
     {
-        PlayMusic("BGM [ACOUSTIC GUITAR]");
+        //PlayMusic("BGM [ACOUSTIC GUITAR]");
     }
     public void PlayMusic(string name)
     {

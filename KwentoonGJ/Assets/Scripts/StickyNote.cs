@@ -23,11 +23,18 @@ public class StickyNote : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            interactText.SetActive(true);
-            if (Input.GetKeyDown(KeyCode.E))
+            if(LearningSystem.instance.isAnswering == false)
             {
-                LearningSystem.instance.ShowLearningPanel();
+                //Debug.Log("Collide");
+                interactText.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    Debug.Log("Interact");
+                    LearningSystem.instance.ShowLearningPanel();
+                    interactText.SetActive(false);
+                }
             }
+            
         }
     }
 
