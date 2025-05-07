@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
         {
             ProcessInputs();
         }
+
         
     }
 
@@ -39,6 +40,8 @@ public class Player : MonoBehaviour
             animator.SetFloat("Horizontal", 0);
             //animator.SetFloat("Vertical", moveY);
             animator.SetFloat("Speed", 0);
+            moveDirection = Vector2.zero;
+            rb.velocity = Vector2.zero;
         }
         
     }

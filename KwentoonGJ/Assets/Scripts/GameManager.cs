@@ -40,6 +40,8 @@ public class GameManager : MonoBehaviour
     
         Time.timeScale = 0f;
         AudioManager.Instance.PlayMusic("Lose Music");
+        AudioManager.Instance.musicSource.ignoreListenerPause = true;
+        AudioManager.Instance.musicSource.ignoreListenerVolume = true;
     }
 
     public void TimeGameOver()
@@ -49,6 +51,8 @@ public class GameManager : MonoBehaviour
         
         Time.timeScale = 0f;
         AudioManager.Instance.PlayMusic("Lose Music");
+        AudioManager.Instance.musicSource.ignoreListenerPause = true;
+        AudioManager.Instance.musicSource.ignoreListenerVolume = true;
     }
     public void LevelClear()
     {
@@ -56,5 +60,7 @@ public class GameManager : MonoBehaviour
         
         Time.timeScale = 0f;
         AudioManager.Instance.PlayMusic("Win Music");
+        AudioManager.Instance.musicSource.ignoreListenerPause = true;
+        AudioManager.Instance.musicSource.ignoreListenerVolume = true;
     }
 }

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNum: 1
   wordTotal: 20
-  quizQuestionsTotal: 10
+  quizQuestionsTotal: 8
   wordList:
   - {fileID: 11400000, guid: df5ca8c97f6509342923be79896e7592, type: 2}
   - {fileID: 11400000, guid: 5aa054b05eef4984fb0d1785974f46bb, type: 2}

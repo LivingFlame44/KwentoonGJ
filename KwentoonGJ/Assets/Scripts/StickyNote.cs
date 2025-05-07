@@ -7,6 +7,7 @@ public class StickyNote : MonoBehaviour
     public Word word;
     public GameObject interactText;
     public bool hasInteracted;
+    public bool canInteract;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,12 @@ public class StickyNote : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.E) && canInteract)
+        {
+            Debug.Log("Interact");
+            LearningSystem.instance.ShowLearningPanel();
+            interactText.SetActive(false);
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -27,12 +33,7 @@ public class StickyNote : MonoBehaviour
             {
                 //Debug.Log("Collide");
                 interactText.SetActive(true);
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    Debug.Log("Interact");
-                    LearningSystem.instance.ShowLearningPanel();
-                    interactText.SetActive(false);
-                }
+                canInteract = true;
             }
             
         }
@@ -43,6 +44,7 @@ public class StickyNote : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             interactText.SetActive(false);
+            canInteract = false;
         }
     }
 

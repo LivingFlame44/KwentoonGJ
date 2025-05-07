@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38bf04d0756923a448aaec75572c5116, type: 3}
-  m_Name: 041 Participate
+  m_Name: 004 Tralalero Tralala
   m_EditorClassIdentifier: 
-  word: Participate
-  wordInfo: To take part in something.
+  word: Tralalero Tralala
+  wordInfo: A four-legged shark wearing nike shoes
   wordSpellingOptions:
-  - Partesipate
-  - Partisipade
-  - Participate
-  - Partecipaet
+  - Tralalero Tralala
+  - Tralalelo Tralala
+  - Tralarero Tralala
+  - Tralarero Tralalala

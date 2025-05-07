@@ -123,7 +123,7 @@ public class MenuManager : MonoBehaviour
     public void SelectHardDifficulty()
     {
         Debug.Log("SelectHardDifficulty called!");
-        LevelManager.level.noteTimer = 9;
+        LevelManager.level.noteTimer = 10;
         if (LevelManager.level.introDialogue == null)
         {
             SceneManager.LoadScene("GameScene");

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38bf04d0756923a448aaec75572c5116, type: 3}
-  m_Name: 041 Participate
+  m_Name: 002 Tung Tung Tung Sahur
   m_EditorClassIdentifier: 
-  word: Participate
-  wordInfo: To take part in something.
+  word: Tung Tung Tung Sahur
+  wordInfo: A terrifying anomaly in the form of a night patrol drum
   wordSpellingOptions:
-  - Partesipate
-  - Partisipade
-  - Participate
-  - Partecipaet
+  - Tung Tung Tung Sahur
+  - Tung Tung Tung Sahor
+  - Tong Tong Tong Sahur
+  - Thung Thung Thung Sahur
